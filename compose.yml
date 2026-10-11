@@ -22,7 +22,7 @@ services:
     
 
   book_service:
-    image: umesh2425/libraryd:bookimage
+    image: umesh2425/library:bookimage
     deploy:
       replicas: 1
     ports:
